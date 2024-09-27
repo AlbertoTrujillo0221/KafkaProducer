@@ -10,7 +10,7 @@ try
     while (true)
     {
         var response = await producer.ProduceAsync(
-                        "LiteThinkingTestz",
+                        "LiteThinkingTest3",
                         new Message<Null, string>
                         {
                             Value = JsonConvert.SerializeObject(new Order("1234", 10000, "Cali"))
